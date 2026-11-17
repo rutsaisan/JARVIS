@@ -1,0 +1,34 @@
+# --- Cerebro ---
+ollama>=0.6
+
+# --- Voz: escucha ---
+openai-whisper
+SpeechRecognition>=3.10
+sounddevice
+numpy
+
+# --- Voz: habla ---
+edge-tts>=7.3          # las versiones antiguas reciben un error 403 de Microsoft
+gTTS
+pygame
+elevenlabs            # opcional: solo si se usa ElevenLabs (requiere clave propia)
+pywin32               # voz sin conexión de Windows (SAPI)
+comtypes              # accesibilidad de Windows: comprobar el buscador de Discord antes de escribir
+
+# --- Internet ---
+duckduckgo_search
+requests
+beautifulsoup4
+
+# --- Control del PC ---
+pyautogui
+pyperclip
+psutil
+pillow
+
+# --- Interfaz ---
+Flask>=3.0
+PySide6               # ventana de escritorio nativa (sin ella se usa Edge en modo aplicación)
+
+# --- Pruebas ---
+pytest

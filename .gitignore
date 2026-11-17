@@ -1,0 +1,11 @@
+# Datos generados por JARVIS (base de datos, logs, audio, perfil de la ventana)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# Herramientas de desarrollo
+.claude/

@@ -1,0 +1,11 @@
+{
+  "servidores": {
+    "documentos": {
+      "comando": "npx",
+      "argumentos": ["-y", "@modelcontextprotocol/server-filesystem", "C:/Users/TU_USUARIO/Documents"],
+      "activo": false,
+      "permitir_cambios": false,
+      "herramientas_permitidas": ["read_text_file", "list_directory", "search_files"]
+    }
+  }
+}
