@@ -295,3 +295,7 @@ La primera versión guardaba la memoria en ChromaDB (`Proyecto_JARVIS/jarvis_db`
 ```bash
 python scripts/importar_recuerdos_chroma.py "..\Proyecto_JARVIS\jarvis_db"
 ```
+
+## Licencia
+
+Código abierto con licencia MIT: ver [LICENSE](LICENSE).
